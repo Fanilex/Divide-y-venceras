@@ -33,10 +33,9 @@ func particionar(arr []int, izq, der int) int {
 		}
 	}
 
-	arr[indiceAlmacen], arr[der] = arr[der], arr[indiceAlmacen] // Mover el pivote a su posición final
+	arr[indiceAlmacen], arr[der] = arr[der], arr[indiceAlmacen] 
 	return indiceAlmacen
 }
-
 
 func mediana(arr []int) int {
 	n := len(arr)
